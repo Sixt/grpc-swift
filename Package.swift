@@ -61,6 +61,7 @@ let package = Package(
         .product(name: "NIOHTTP1", package: "swift-nio"),
         .product(name: "NIOHTTP2", package: "swift-nio-http2"),
         .product(name: "NIOExtras", package: "swift-nio-extras"),
+        .product(name: "NIOTLS", package: "swift-nio"),
         .product(name: "NIOSSL", package: "swift-nio-ssl"),
         .product(name: "SwiftProtobuf", package: "SwiftProtobuf"),
         .product(name: "Logging", package: "swift-log"),
